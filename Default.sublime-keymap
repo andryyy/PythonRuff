@@ -1,0 +1,35 @@
+[
+    // Format entire Python file
+    {
+        "keys": ["ctrl+shift+f"],
+        "command": "python_ruff_format",
+        "args": {"use_selection": false},
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    },
+    // Lint Python file
+    {
+        "keys": ["ctrl+shift+l"],
+        "command": "python_ruff_lint",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    },
+    // Navigate to next error
+    {
+        "keys": ["f4"],
+        "command": "python_ruff_next_error",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    },
+    // Navigate to previous error
+    {
+        "keys": ["shift+f4"],
+        "command": "python_ruff_previous_error",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    }
+]

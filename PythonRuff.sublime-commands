@@ -1,0 +1,48 @@
+[
+    {
+        "caption": "PythonRuff: Format File",
+        "command": "python_ruff_format",
+        "args": {"use_selection": false}
+    },
+    {
+        "caption": "PythonRuff: Format Selection",
+        "command": "python_ruff_format",
+        "args": {"use_selection": true}
+    },
+    {
+        "caption": "PythonRuff: Lint File",
+        "command": "python_ruff_lint"
+    },
+    {
+        "caption": "PythonRuff: Fix Issues",
+        "command": "python_ruff_fix"
+    },
+    {
+        "caption": "PythonRuff: Clear Lint Markers",
+        "command": "python_ruff_clear_lint"
+    },
+    {
+        "caption": "PythonRuff: Next Error",
+        "command": "python_ruff_next_error"
+    },
+    {
+        "caption": "PythonRuff: Previous Error",
+        "command": "python_ruff_previous_error"
+    },
+    {
+        "caption": "PythonRuff: Check Installation",
+        "command": "python_ruff_check"
+    },
+    {
+        "caption": "PythonRuff: Toggle Format on Save",
+        "command": "python_ruff_toggle_format_on_save"
+    },
+    {
+        "caption": "PythonRuff: Toggle Lint on Save",
+        "command": "python_ruff_toggle_lint_on_save"
+    },
+    {
+        "caption": "PythonRuff: Toggle Fix on Save",
+        "command": "python_ruff_toggle_fix_on_save"
+    }
+]

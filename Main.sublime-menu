@@ -1,0 +1,56 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "PythonRuff",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/PythonRuff/PythonRuff.sublime-settings",
+                                    "default": "{\n\t$0\n}\n"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/PythonRuff/Default.sublime-keymap",
+                                    "default": "[\n\t$0\n]\n"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Check Installation",
+                                "command": "python_ruff_check"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Toggle Format on Save",
+                                "command": "python_ruff_toggle_format_on_save",
+                                "checkbox": true
+                            },
+                            {
+                                "caption": "Toggle Lint on Save",
+                                "command": "python_ruff_toggle_lint_on_save",
+                                "checkbox": true
+                            },
+                            {
+                                "caption": "Toggle Fix on Save",
+                                "command": "python_ruff_toggle_fix_on_save",
+                                "checkbox": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

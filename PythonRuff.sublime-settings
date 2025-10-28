@@ -1,0 +1,27 @@
+{
+    // Path to ruff binary. Can be:
+    // - "ruff" (default, searches PATH)
+    // - Absolute path like "/usr/bin/ruff" or "/home/user/venv/bin/ruff"
+    "ruff_binary": "ruff",
+
+    // Format entire file when saving
+    "format_on_save": false,
+
+    // Run auto-fixes when saving
+    "fix_on_save": false,
+
+    // Run linter when saving (shows results in output panel)
+    "lint_on_save": false,
+
+    // Use ruff.toml, .ruff.toml, or pyproject.toml config files if found
+    "use_config_file": true,
+
+    // Maximum time (in seconds) to wait for ruff to complete
+    "timeout": 10,
+
+    // Ruff formatting options (only used if no config file is found or use_config_file is false)
+    // These options are overridden by config files if they exist
+
+    // How many characters per line to allow (default: 88)
+    "line_length": null
+}

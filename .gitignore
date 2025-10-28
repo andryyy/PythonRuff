@@ -1,0 +1,18 @@
+# Build artifacts
+*.sublime-package
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~

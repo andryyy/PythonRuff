@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "PythonRuff: Format",
+        "command": "python_ruff_format",
+        "args": {"use_selection": true}
+    },
+    {
+        "caption": "PythonRuff: Lint",
+        "command": "python_ruff_lint"
+    },
+    {
+        "caption": "PythonRuff: Fix Issues",
+        "command": "python_ruff_fix"
+    },
+    {
+        "caption": "PythonRuff: Clear Lint Markers",
+        "command": "python_ruff_clear_lint"
+    }
+]
