@@ -1,3 +1,7 @@
+# ‼ This plugin was shamefully vibe-coded as a quick helper for me to use in Sublime Text 4.
+
+Everything below and the code itself were written by AI, it may contain personal data, my credit card number, a life journal, a map for a hidden treasure in the caribbean, or even a Sublime plugin.
+
 # PythonRuff
 
 Format and lint Python code using Ruff in Sublime Text.
